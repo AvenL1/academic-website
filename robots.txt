@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://AvenL1.github.io/academic-website/sitemap.xml
