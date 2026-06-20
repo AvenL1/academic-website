@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Name
+title: LK
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
