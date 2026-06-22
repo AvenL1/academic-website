@@ -1,6 +1,6 @@
 ---
 layout: about
-title: LK
+title: LIU Kuan
 permalink: /
 subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
