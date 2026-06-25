@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Intellectual Properties
-permalink: /intellectual-properties/
+title: Patent
+permalink: /patent/
 nav: true
 nav_order: 4
 ---
