@@ -2,7 +2,7 @@
 layout: about
 title: LIU Kuan
 permalink: /
-subtitle: Research Assistant Professor at PolyU
+subtitle: B.S. (USTB), Ph.D (PKU)
 
 profile:
   align: right
@@ -99,7 +99,7 @@ selected_publications: true
 </div>
 
 <div style="display: flex; flex-direction: column; gap: 18px; margin-bottom: 40px;">
-  <div style="background: #f4f9fc; border-left: 5px solid #3182ce; padding: 16px 20px; border-radius: 0 6px 6px 0; box-shadow: 0 1px 4 rgba(0,0,0,0.04);">
+  <div style="background: #f4f9fc; border-left: 5px solid #3182ce; padding: 16px 20px; border-radius: 0 6px 6px 0; box-shadow: 0 1px 4px rgba(0,0,0,0.04);">
     <div style="display: flex; flex-direction: column; gap: 8px; align-items: flex-start;">
       <span style="font-weight: bold; color: #111; font-size: 1.1rem;">Quasi-Single-Crystalline Perovskite Photovoltaic Modules</span>
       <span style="background: #e1f5fe; color: #0288d1; border: 1px solid #b3e5fc; padding: 3px 10px; border-radius: 4px; font-size: 0.85em; font-weight: bold; letter-spacing: 0.5px;">1.07M | ITF-ITSP</span>
@@ -107,7 +107,7 @@ selected_publications: true
     <div style="color: #666; font-size: 0.95rem; margin-top: 8px;"><i class="far fa-calendar-alt" style="margin-right: 5px;"></i> Timeline: 01/2026 - 06/2027</div>
   </div>
 
-  <div style="background: #f4f9fc; border-left: 5px solid #3182ce; padding: 16px 20px; border-radius: 0 6px 6px 0; box-shadow: 0 1px 4 rgba(0,0,0,0.04);">
+  <div style="background: #f4f9fc; border-left: 5px solid #3182ce; padding: 16px 20px; border-radius: 0 6px 6px 0; box-shadow: 0 1px 4px rgba(0,0,0,0.04);">
     <div style="display: flex; flex-direction: column; gap: 8px; align-items: flex-start;">
       <span style="font-weight: bold; color: #111; font-size: 1.1rem;">Investigation on Ionic Liquids based Green Solvent System for Environmentally Friendly Printing of stable perovskite solar modules</span>
       <span style="background: #e1f5fe; color: #0288d1; border: 1px solid #b3e5fc; padding: 3px 10px; border-radius: 4px; font-size: 0.85em; font-weight: bold; letter-spacing: 0.5px;">0.3M | NSFC Young Scientists</span>
@@ -115,7 +115,7 @@ selected_publications: true
     <div style="color: #666; font-size: 0.95rem; margin-top: 8px;"><i class="far fa-calendar-alt" style="margin-right: 5px;"></i> Timeline: 01/2025 - 12/2027</div>
   </div>
 
-  <div style="background: #f4f9fc; border-left: 5px solid #3182ce; padding: 16px 20px; border-radius: 0 6px 6px 0; box-shadow: 0 1px 4 rgba(0,0,0,0.04);">
+  <div style="background: #f4f9fc; border-left: 5px solid #3182ce; padding: 16px 20px; border-radius: 0 6px 6px 0; box-shadow: 0 1px 4px rgba(0,0,0,0.04);">
     <div style="display: flex; flex-direction: column; gap: 8px; align-items: flex-start;">
       <span style="font-weight: bold; color: #111; font-size: 1.1rem;">Multifunctional Surfactant-Assisted Printing of Large-Area High-Efficiency and Stable Perovskite Solar Cells and Modules</span>
       <span style="background: #e1f5fe; color: #0288d1; border: 1px solid #b3e5fc; padding: 3px 10px; border-radius: 4px; font-size: 0.85em; font-weight: bold; letter-spacing: 0.5px;">0.1M | Guangdong Regional Joint Fund</span>
@@ -123,7 +123,7 @@ selected_publications: true
     <div style="color: #666; font-size: 0.95rem; margin-top: 8px;"><i class="far fa-calendar-alt" style="margin-right: 5px;"></i> Timeline: 01/2021 - 12/2023</div>
   </div>
 
-  <div style="background: #f4f9fc; border-left: 5px solid #3182ce; padding: 16px 20px; border-radius: 0 6px 6px 0; box-shadow: 0 1px 4 rgba(0,0,0,0.04);">
+  <div style="background: #f4f9fc; border-left: 5px solid #3182ce; padding: 16px 20px; border-radius: 0 6px 6px 0; box-shadow: 0 1px 4px rgba(0,0,0,0.04);">
     <div style="display: flex; flex-direction: column; gap: 8px; align-items: flex-start;">
       <span style="font-weight: bold; color: #111; font-size: 1.1rem;">Investigation for the ambient air blade coating of large-area printable perovskite photovoltaics modules</span>
       <span style="background: #e1f5fe; color: #0288d1; border: 1px solid #b3e5fc; padding: 3px 10px; border-radius: 4px; font-size: 0.85em; font-weight: bold; letter-spacing: 0.5px;">0.25M | PolyU Start-up Fund</span>
@@ -144,7 +144,7 @@ selected_publications: true
 <div style="display: flex; flex-direction: column; gap: 16px; margin-bottom: 40px; color: #222; padding-left: 5px;">
   <div style="display: flex; align-items: baseline; gap: 20px;">
     <span style="color: #111; min-width: 80px; font-weight: bold; font-size: 1.05rem;">11/2021</span>
-    <span><strong style="color: #b7791f; font-weight: bold;">Grand Prize & First Prize</strong>, The 7th Hong Kong University Student Innovation and Entrepreneurship Competition</span>
+    <span><strong style="color: #111; font-weight: bold;">Grand Prize & First Prize</strong>, The 7th Hong Kong University Student Innovation and Entrepreneurship Competition</span>
   </div>
   <div style="display: flex; align-items: baseline; gap: 20px;">
     <span style="color: #111; min-width: 80px; font-weight: bold; font-size: 1.05rem;">05/2020</span>
