@@ -18,3 +18,18 @@ nav_order: 2
 {% bibliography %}
 
 </div>
+
+<style>
+  /* 1. 让右侧年份颜色变深、变清晰、去除透明虚化 */
+  .publications .year, h2.year, .year {
+    color: #222222 !important;   /* 换成高质感的清晰深黑色 */
+    opacity: 1 !important;        /* 彻底写死透明度，不再若隐若现 */
+    font-weight: 600 !important;  /* 稍微加粗，非常有精神 */
+  }
+
+  /* 2. 让这一页的所有文字和列表松绑，告别紧凑 */
+  p, li, .publications li {
+    line-height: 1.8 !important;   /* 拉开行与行之间的距离 */
+    margin-bottom: 16px !important; /* 让每一篇论文之间留出舒适的空隙 */
+  }
+</style>
