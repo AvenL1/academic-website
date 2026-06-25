@@ -27,7 +27,7 @@ nav_order: 4
     </div>
     <h5 style="margin-top: 5px; margin-bottom: 8px; font-weight: 600; color: #111; font-size: 1.15rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">钙钛矿层、其制备方法和光电器件</h5>
     <div style="color: #444; font-size: 0.95rem; margin-bottom: 6px;">李刚，<u>刘宽</u>，梁琼</div>
-    <div style="color: #666; font-size: 0.88rem; font-style: italic;">Chinese Invention Patent | 申请号: 202511353888.1 | 申请日期: 2025-09-22</div>
+    <div style="color: #666; font-size: 0.88rem; font-style: italic;">Chinese Invention Patent | Applied No: 202511353888.1 | Applied Date: 2025-09-22</div>
   </div>
 
   <!-- 专利 3（中国申请专利，保持英文） -->
@@ -38,7 +38,7 @@ nav_order: 4
     </div>
     <h5 style="margin-top: 5px; margin-bottom: 8px; font-weight: 600; color: #111; font-size: 1.15rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">钙钛矿复合材料、钙钛矿太阳能电池及其制备方法</h5>
     <div style="color: #444; font-size: 0.95rem; margin-bottom: 6px;">李刚，<u>刘宽</u></div>
-    <div style="color: #666; font-size: 0.88rem; font-style: italic;">Chinese Invention Patent | 申请号: 202011252803.8 | 申请日期: 2020-11-11</div>
+    <div style="color: #666; font-size: 0.88rem; font-style: italic;">Chinese Invention Patent | Applied No: 202011252803.8 | Applied Date: 2020-11-11</div>
   </div>
 
   <!-- 专利 4（中国授权专利，保持英文） -->
@@ -49,7 +49,7 @@ nav_order: 4
     </div>
     <h5 style="margin-top: 5px; margin-bottom: 8px; font-weight: 600; color: #111; font-size: 1.15rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;">多并稠环共轭大分子在钙钛矿太阳能电池中的应用</h5>
     <div style="color: #444; font-size: 0.95rem; margin-bottom: 6px;">占肖卫，李腾飞，张明煜，<u>刘宽</u>，代水星，赵冠超，李立伟，郭铁，孟原</div>
-    <div style="color: #666; font-size: 0.88rem; font-style: italic;">Chinese Invention Patent | 专利号: CN201710652661.6 | 授权日期: 2019-02-26</div>
+    <div style="color: #666; font-size: 0.88rem; font-style: italic;">Chinese Invention Patent | Patent No.: CN201710652661.6 | Granted Date: 2019-02-26</div>
   </div>
 
 </div>
