@@ -6,7 +6,7 @@ subtitle: B.S. (USTB), Ph.D (PKU)
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.jpa
   address: >
     Research Assistant Professor<br>
     Department of Electrical and Electronic Engineering<br>
@@ -144,7 +144,7 @@ selected_publications: true
 <div style="display: flex; flex-direction: column; gap: 16px; margin-bottom: 40px; color: #222; padding-left: 5px;">
   <div style="display: flex; align-items: baseline; gap: 20px;">
     <span style="color: #111; min-width: 80px; font-weight: bold; font-size: 1.05rem;">11/2021</span>
-    <span><strong style="color: #111; font-weight: bold;">Grand Prize & First Prize</strong>, The 7th Hong Kong University Student Innovation and Entrepreneurship Competition</span>
+    <span><span style="color: #111; font-weight: normal;">Grand Prize & First Prize</span>, The 7th Hong Kong University Student Innovation and Entrepreneurship Competition</span>
   </div>
   <div style="display: flex; align-items: baseline; gap: 20px;">
     <span style="color: #111; min-width: 80px; font-weight: bold; font-size: 1.05rem;">05/2020</span>
