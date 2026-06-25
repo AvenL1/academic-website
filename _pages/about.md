@@ -24,183 +24,192 @@ selected_publications: true
 </div>
 
 <!-- ========================================== -->
-<!-- SECTION: ACADEMIC POSITIONS -->
+<!-- SECTION: ACADEMIC POSITIONS (皇家海军蓝时间轴) -->
 <!-- ========================================== -->
-<div style="margin-top: 50px; margin-bottom: 25px; border-bottom: 1px solid #ccc; padding-bottom: 8px;">
-  <h3 style="font-weight: bold; font-size: 1.5rem; color: #111;">
-    Academic Positions
+<div style="margin-top: 50px; margin-bottom: 25px; border-bottom: 2px solid #1a365d; padding-bottom: 8px;">
+  <h3 style="font-weight: bold; font-size: 1.5rem; color: #1a365d; display: flex; align-items: center;">
+    <i class="fas fa-briefcase" style="margin-right: 12px; color: #1a365d; font-size: 1.3rem;"></i> Academic Positions
   </h3>
 </div>
 
-<div style="display: flex; flex-direction: column; gap: 20px; margin-bottom: 40px;">
+<div style="display: flex; flex-direction: column; gap: 20px; margin-bottom: 40px; padding-left: 8px;">
   <div style="display: flex; align-items: flex-start; gap: 25px;">
-    <div style="min-width: 110px; color: #555; font-weight: bold; font-size: 1.05rem;">Since 01/2022</div>
+    <div style="min-width: 110px; color: #1a365d; font-weight: bold; font-size: 1.05rem;">Since 01/2022</div>
     <div>
       <div style="font-weight: bold; color: #111; font-size: 1.1rem;">Research Assistant Professor</div>
-      <div style="color: #444; font-size: 1.05rem;">Department of Electrical and Electronic Engineering, The Hong Kong Polytechnic University</div>
+      <div style="color: #555; font-size: 1.05rem;">Department of Electrical and Electronic Engineering, The Hong Kong Polytechnic University</div>
     </div>
   </div>
   <div style="display: flex; align-items: flex-start; gap: 25px;">
-    <div style="min-width: 110px; color: #555; font-weight: bold; font-size: 1.05rem;">2019 — 2021</div>
+    <div style="min-width: 110px; color: #666; font-weight: bold; font-size: 1.05rem;">2019 — 2021</div>
     <div>
       <div style="font-weight: bold; color: #111; font-size: 1.1rem;">Postdoctoral Fellow</div>
-      <div style="color: #444; font-size: 1.05rem;">Department of Electronic and Information Engineering, The Hong Kong Polytechnic University</div>
+      <div style="color: #555; font-size: 1.05rem;">Department of Electronic and Information Engineering, The Hong Kong Polytechnic University</div>
     </div>
   </div>
   <div style="display: flex; align-items: flex-start; gap: 25px;">
-    <div style="min-width: 110px; color: #555; font-weight: bold; font-size: 1.05rem;">2018 — 2019</div>
+    <div style="min-width: 110px; color: #666; font-weight: bold; font-size: 1.05rem;">2018 — 2019</div>
     <div>
       <div style="font-weight: bold; color: #111; font-size: 1.1rem;">Visiting Scholar</div>
-      <div style="color: #444; font-size: 1.05rem;">Institute of Physics, Chinese Academy of Sciences</div>
+      <div style="color: #555; font-size: 1.05rem;">Institute of Physics, Chinese Academy of Sciences</div>
     </div>
   </div>
   <div style="display: flex; align-items: flex-start; gap: 25px;">
-    <div style="min-width: 110px; color: #555; font-weight: bold; font-size: 1.05rem;">2015</div>
+    <div style="min-width: 110px; color: #666; font-weight: bold; font-size: 1.05rem;">2015</div>
     <div>
       <div style="font-weight: bold; color: #111; font-size: 1.1rem;">Research Assistant</div>
-      <div style="color: #444; font-size: 1.05rem;">Department of Energy Conversion and Storage, Technical University of Denmark</div>
+      <div style="color: #555; font-size: 1.05rem;">Department of Energy Conversion and Storage, Technical University of Denmark</div>
     </div>
   </div>
 </div>
 
 <!-- ========================================== -->
-<!-- SECTION: EDUCATION -->
+<!-- SECTION: EDUCATION (翡翠深绿学术风) -->
 <!-- ========================================== -->
-<div style="margin-top: 50px; margin-bottom: 25px; border-bottom: 1px solid #ccc; padding-bottom: 8px;">
-  <h3 style="font-weight: bold; font-size: 1.5rem; color: #111;">
-    Education
+<div style="margin-top: 50px; margin-bottom: 25px; border-bottom: 2px solid #2e7d32; padding-bottom: 8px;">
+  <h3 style="font-weight: bold; font-size: 1.5rem; color: #2e7d32; display: flex; align-items: center;">
+    <i class="fas fa-graduation-cap" style="margin-right: 12px; color: #2e7d32; font-size: 1.3rem;"></i> Education
   </h3>
 </div>
 
-<div style="display: flex; flex-direction: column; gap: 20px; margin-bottom: 40px;">
+<div style="display: flex; flex-direction: column; gap: 20px; margin-bottom: 40px; padding-left: 8px;">
   <div style="display: flex; align-items: flex-start; gap: 25px;">
-    <div style="min-width: 110px; color: #555; font-weight: bold; font-size: 1.05rem;">2013 — 2018</div>
+    <div style="min-width: 110px; color: #2e7d32; font-weight: bold; font-size: 1.05rem;">2013 — 2018</div>
     <div>
       <div style="font-weight: bold; color: #111; font-size: 1.1rem;">Ph.D. in Advanced Materials and Mechanics</div>
-      <div style="color: #444; font-size: 1.05rem;">Peking University (PKU)</div>
+      <div style="color: #555; font-size: 1.05rem;">Peking University (PKU)</div>
     </div>
   </div>
   <div style="display: flex; align-items: flex-start; gap: 25px;">
-    <div style="min-width: 110px; color: #555; font-weight: bold; font-size: 1.05rem;">2009 — 2013</div>
+    <div style="min-width: 110px; color: #666; font-weight: bold; font-size: 1.05rem;">2009 — 2013</div>
     <div>
       <div style="font-weight: bold; color: #111; font-size: 1.1rem;">B.S. in Materials Science and Engineering</div>
-      <div style="color: #444; font-size: 1.05rem;">University of Science and Technology Beijing (USTB)</div>
+      <div style="color: #555; font-size: 1.05rem;">University of Science and Technology Beijing (USTB)</div>
     </div>
   </div>
 </div>
 
 <!-- ========================================== -->
-<!-- SECTION: RESEARCH GRANTS -->
+<!-- SECTION: RESEARCH GRANTS (轻奢蔚蓝卡片流) -->
 <!-- ========================================== -->
-<div style="margin-top: 50px; margin-bottom: 25px; border-bottom: 1px solid #ccc; padding-bottom: 8px;">
-  <h3 style="font-weight: bold; font-size: 1.5rem; color: #111;">
-    Research Grants
+<div style="margin-top: 50px; margin-bottom: 25px; border-bottom: 2px solid #0288d1; padding-bottom: 8px;">
+  <h3 style="font-weight: bold; font-size: 1.5rem; color: #0288d1; display: flex; align-items: center;">
+    <i class="fas fa-file-invoice-dollar" style="margin-right: 12px; color: #0288d1; font-size: 1.3rem;"></i> Research Grants
   </h3>
 </div>
 
 <div style="display: flex; flex-direction: column; gap: 18px; margin-bottom: 40px;">
-  <div style="background: #fafafa; border-left: 4px solid #333; padding: 16px 20px; border-radius: 0 4px 4px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+  <div style="background: #f4f9fc; border-left: 5px solid #0288d1; padding: 16px 20px; border-radius: 0 6px 6px 0; box-shadow: 0 1px 4px rgba(2,136,209,0.08);">
     <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 10px;">
       <span style="font-weight: bold; color: #111; font-size: 1.1rem;">Quasi-Single-Crystalline Perovskite Photovoltaic Modules</span>
-      <span style="border: 1px solid #333; color: #111; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">1.07M | ITF-ITSP</span>
+      <span style="background: #e1f5fe; color: #0288d1; border: 1px solid #b3e5fc; padding: 3px 10px; border-radius: 4px; font-size: 0.88em; font-weight: bold; letter-spacing: 0.5px;">1.07M | ITF-ITSP</span>
     </div>
-    <div style="color: #555; font-size: 0.95rem; margin-top: 6px;">Timeline: 01/2026 - 06/2027</div>
+    <div style="color: #666; font-size: 0.95rem; margin-top: 8px;"><i class="far fa-calendar-alt" style="margin-right: 5px;"></i> Timeline: 01/2026 - 06/2027</div>
   </div>
 
-  <div style="background: #fafafa; border-left: 4px solid #333; padding: 16px 20px; border-radius: 0 4px 4px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+  <div style="background: #f4f9fc; border-left: 5px solid #0288d1; padding: 16px 20px; border-radius: 0 6px 6px 0; box-shadow: 0 1px 4px rgba(2,136,209,0.08);">
     <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 10px;">
       <span style="font-weight: bold; color: #111; font-size: 1.1rem;">Investigation on Ionic Liquids based Green Solvent System for Environmentally Friendly Printing of stable perovskite solar modules</span>
-      <span style="border: 1px solid #333; color: #111; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">0.3M | NSFC Young Scientists</span>
+      <span style="background: #e1f5fe; color: #0288d1; border: 1px solid #b3e5fc; padding: 3px 10px; border-radius: 4px; font-size: 0.88em; font-weight: bold; letter-spacing: 0.5px;">0.3M | NSFC Young Scientists</span>
     </div>
-    <div style="color: #555; font-size: 0.95rem; margin-top: 6px;">Timeline: 01/2025 - 12/2027</div>
+    <div style="color: #666; font-size: 0.95rem; margin-top: 8px;"><i class="far fa-calendar-alt" style="margin-right: 5px;"></i> Timeline: 01/2025 - 12/2027</div>
   </div>
 
-  <div style="background: #fafafa; border-left: 4px solid #333; padding: 16px 20px; border-radius: 0 4px 4px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+  <div style="background: #f4f9fc; border-left: 5px solid #0288d1; padding: 16px 20px; border-radius: 0 6px 6px 0; box-shadow: 0 1px 4px rgba(2,136,209,0.08);">
     <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 10px;">
       <span style="font-weight: bold; color: #111; font-size: 1.1rem;">Multifunctional Surfactant-Assisted Printing of Large-Area High-Efficiency and Stable Perovskite Solar Cells and Modules</span>
-      <span style="border: 1px solid #333; color: #111; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">0.1M | Guangdong Regional Joint Fund</span>
+      <span style="background: #e1f5fe; color: #0288d1; border: 1px solid #b3e5fc; padding: 3px 10px; border-radius: 4px; font-size: 0.88em; font-weight: bold; letter-spacing: 0.5px;">0.1M | Guangdong Regional Joint Fund</span>
     </div>
-    <div style="color: #555; font-size: 0.95rem; margin-top: 6px;">Timeline: 01/2021 - 12/2023</div>
+    <div style="color: #666; font-size: 0.95rem; margin-top: 8px;"><i class="far fa-calendar-alt" style="margin-right: 5px;"></i> Timeline: 01/2021 - 12/2023</div>
   </div>
 
-  <div style="background: #fafafa; border-left: 4px solid #333; padding: 16px 20px; border-radius: 0 4px 4px 0; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+  <div style="background: #f4f9fc; border-left: 5px solid #0288d1; padding: 16px 20px; border-radius: 0 6px 6px 0; box-shadow: 0 1px 4px rgba(2,136,209,0.08);">
     <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 10px;">
       <span style="font-weight: bold; color: #111; font-size: 1.1rem;">Investigation for the ambient air blade coating of large-area printable perovskite photovoltaics modules</span>
-      <span style="border: 1px solid #333; color: #111; padding: 2px 8px; border-radius: 3px; font-size: 0.85em; font-weight: bold;">0.25M | PolyU Start-up Fund</span>
+      <span style="background: #e1f5fe; color: #0288d1; border: 1px solid #b3e5fc; padding: 3px 10px; border-radius: 4px; font-size: 0.88em; font-weight: bold; letter-spacing: 0.5px;">0.25M | PolyU Start-up Fund</span>
     </div>
-    <div style="color: #555; font-size: 0.95rem; margin-top: 6px;">Timeline: 07/2022 - 06/2024</div>
+    <div style="color: #666; font-size: 0.95rem; margin-top: 8px;"><i class="far fa-calendar-alt" style="margin-right: 5px;"></i> Timeline: 07/2022 - 06/2024</div>
   </div>
 </div>
 
 <!-- ========================================== -->
-<!-- SECTION: AWARDS & HONORS -->
+<!-- SECTION: AWARDS & HONORS (华丽奖杯金) -->
 <!-- ========================================== -->
-<div style="margin-top: 50px; margin-bottom: 25px; border-bottom: 1px solid #ccc; padding-bottom: 8px;">
-  <h3 style="font-weight: bold; font-size: 1.5rem; color: #111;">
-    Awards & Honors
+<div style="margin-top: 50px; margin-bottom: 25px; border-bottom: 2px solid #b8860b; padding-bottom: 8px;">
+  <h3 style="font-weight: bold; font-size: 1.5rem; color: #b8860b; display: flex; align-items: center;">
+    <i class="fas fa-trophy" style="margin-right: 12px; color: #b8860b; font-size: 1.3rem;"></i> Awards & Honors
   </h3>
 </div>
 
-<div style="display: flex; flex-direction: column; gap: 16px; margin-bottom: 40px; color: #222;">
+<div style="display: flex; flex-direction: column; gap: 16px; margin-bottom: 40px; color: #222; padding-left: 5px;">
   <div style="display: flex; align-items: baseline; gap: 20px;">
-    <span style="color: #111; min-width: 80px; font-weight: bold; font-size: 1.05rem;">11/2021</span>
-    <span><strong>Grand Prize & First Prize</strong>, The 7th Hong Kong University Student Innovation and Entrepreneurship Competition</span>
+    <span style="color: #b8860b; min-width: 80px; font-weight: bold; font-size: 1.05rem;">11/2021</span>
+    <span><strong style="color: #b8860b; background: #fffde7; padding: 2px 6px; border-radius: 3px; border: 1px dashed #b8860b;">Grand Prize & First Prize</strong>, The 7th Hong Kong University Student Innovation and Entrepreneurship Competition</span>
   </div>
   <div style="display: flex; align-items: baseline; gap: 20px;">
-    <span style="color: #555; min-width: 80px; font-weight: bold; font-size: 1.05rem;">05/2020</span>
+    <span style="color: #666; min-width: 80px; font-weight: bold; font-size: 1.05rem;">05/2020</span>
     <span><strong>Postdoctoral Fellowship Scheme</strong>, The Research Grants Council (RGC, Hong Kong)</span>
   </div>
   <div style="display: flex; align-items: baseline; gap: 20px;">
-    <span style="color: #555; min-width: 80px; font-weight: bold; font-size: 1.05rem;">10/2019</span>
+    <span style="color: #666; min-width: 80px; font-weight: bold; font-size: 1.05rem;">10/2019</span>
     <span><strong>Distinguished Postdoctoral Fellowship</strong>, The Hong Kong Polytechnic University</span>
   </div>
   <div style="display: flex; align-items: baseline; gap: 20px;">
-    <span style="color: #555; min-width: 80px; font-weight: bold; font-size: 1.05rem;">05/2017</span>
+    <span style="color: #666; min-width: 80px; font-weight: bold; font-size: 1.05rem;">05/2017</span>
     <span><strong>Best Poster Award</strong>, The 4th Conference on New Generation Solar Cells (Beijing)</span>
   </div>
   <div style="display: flex; align-items: baseline; gap: 20px;">
-    <span style="color: #555; min-width: 80px; font-weight: bold; font-size: 1.05rem;">12/2014</span>
+    <span style="color: #666; min-width: 80px; font-weight: bold; font-size: 1.05rem;">12/2014</span>
     <span>New Student Scholarship, Peking University</span>
   </div>
   <div style="display: flex; align-items: baseline; gap: 20px;">
-    <span style="color: #555; min-width: 80px; font-weight: bold; font-size: 1.05rem;">06/2013</span>
+    <span style="color: #666; min-width: 80px; font-weight: bold; font-size: 1.05rem;">06/2013</span>
     <span>Outstanding Graduate, University of Science and Technology Beijing</span>
   </div>
   <div style="display: flex; align-items: baseline; gap: 20px;">
-    <span style="color: #555; min-width: 80px; font-weight: bold; font-size: 1.05rem;">11/2012</span>
+    <span style="color: #666; min-width: 80px; font-weight: bold; font-size: 1.05rem;">11/2012</span>
     <span>Thiel Scholarship, University of Science and Technology Beijing</span>
   </div>
 </div>
 
 <!-- ========================================== -->
-<!-- SECTION: SYNERGISTIC ACTIVITIES -->
+<!-- SECTION: SYNERGISTIC ACTIVITIES (质感深绿) -->
 <!-- ========================================== -->
-<div style="margin-top: 50px; margin-bottom: 25px; border-bottom: 1px solid #ccc; padding-bottom: 8px;">
-  <h3 style="font-weight: bold; font-size: 1.5rem; color: #111;">
-    Synergistic Activities
+<div style="margin-top: 50px; margin-bottom: 25px; border-bottom: 2px solid #004d40; padding-bottom: 8px;">
+  <h3 style="font-weight: bold; font-size: 1.5rem; color: #004d40; display: flex; align-items: center;">
+    <i class="fas fa-users" style="margin-right: 12px; color: #004d40; font-size: 1.3rem;"></i> Synergistic Activities
   </h3>
 </div>
 
-<div style="display: flex; flex-direction: column; gap: 16px; margin-bottom: 20px; color: #222;">
-  <div>• <strong>Journal Referee:</strong> <em>Nature Communications, Advanced Materials, Joule, Small</em>, etc.</div>
-  <div>• <strong>Guest Editor:</strong> Special issue "Advanced Nanotechnologies in Perovskite Solar Cells" for <em>Crystals</em> (ISSN 2073-4352).</div>
-  <div>• <strong>Invited Talks:</strong> 2025 13th National Conference on Organic Chemistry of Chinese Chemical Society, ICEO2025, CMC2025, 2024 NSFC-RGC Young Scholars Forum, etc.</div>
+<div style="display: flex; flex-direction: column; gap: 16px; margin-bottom: 20px; color: #222; padding-left: 5px;">
+  <div style="display: flex; align-items: flex-start; gap: 12px;">
+    <i class="fas fa-check-circle" style="color: #004d40; margin-top: 5px; font-size: 1rem;"></i>
+    <div><strong>Journal Referee:</strong> <em>Nature Communications, Advanced Materials, Joule, Small</em>, etc.</div>
+  </div>
+  <div style="display: flex; align-items: flex-start; gap: 12px;">
+    <i class="fas fa-edit" style="color: #004d40; margin-top: 5px; font-size: 1rem;"></i>
+    <div><strong>Guest Editor:</strong> Special issue "Advanced Nanotechnologies in Perovskite Solar Cells" for <em>Crystals</em> (ISSN 2073-4352).</div>
+  </div>
+  <div style="display: flex; align-items: flex-start; gap: 12px;">
+    <i class="fas fa-microphone" style="color: #004d40; margin-top: 5px; font-size: 1rem;"></i>
+    <div><strong>Invited Talks:</strong> 2025 13th National Conference on Organic Chemistry of Chinese Chemical Society, ICEO2025, CMC2025, 2024 NSFC-RGC Young Scholars Forum, etc.</div>
+  </div>
 </div>
 
 <!-- ========================================== -->
-<!-- GLOBAL FONTS &呼吸感 OVERRIDE -->
+<!-- GLOBAL FONTS & OVERRIDE -->
 <!-- ========================================== -->
 <style>
-  /* 强制全站本页所有元素无死角切换为 Times New Roman */
+  /* 强力锁定：既要 Times New Roman 的端庄，又要拉开舒适行距 */
   body, p, li, div, span, a, h1, h2, h3, h4, h5, h6, .profile, .contact-note, .subtitle {
     font-family: "Times New Roman", Times, serif !important;
   }
   
-  /* 调整右侧个人信息栏（照片下方三行）的行高与细节间距 */
+  /* 照片下方三行行高精准优化（紧凑而整齐） */
   .profile .address {
     line-height: 1.5 !important;
     font-size: 1.05rem !important;
-    color: #333 !important;
+    color: #222 !important;
     margin-top: 12px !important;
   }
 </style>
