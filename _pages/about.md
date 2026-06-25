@@ -6,7 +6,7 @@ subtitle: Research Assistant Professor at PolyU
 
 profile:
   align: right
-  image: prof_pic.png
+  image: prof_pic.jpg
   address: >
     Research Assistant Professor<br>
     Department of Electrical and Electronic Engineering<br>
