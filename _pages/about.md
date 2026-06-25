@@ -24,17 +24,17 @@ selected_publications: true
 </div>
 
 <!-- ========================================== -->
-<!-- SECTION: ACADEMIC POSITIONS (皇家海军蓝时间轴) -->
+<!-- SECTION: ACADEMIC POSITIONS (升级：明亮钢青蓝) -->
 <!-- ========================================== -->
-<div style="margin-top: 50px; margin-bottom: 25px; border-bottom: 2px solid #1a365d; padding-bottom: 8px;">
-  <h3 style="font-weight: bold; font-size: 1.5rem; color: #1a365d; display: flex; align-items: center;">
-    <i class="fas fa-briefcase" style="margin-right: 12px; color: #1a365d; font-size: 1.3rem;"></i> Academic Positions
+<div style="margin-top: 50px; margin-bottom: 25px; border-bottom: 2px solid #3182ce; padding-bottom: 8px;">
+  <h3 style="font-weight: bold; font-size: 1.5rem; color: #3182ce; display: flex; align-items: center;">
+    <i class="fas fa-briefcase" style="margin-right: 12px; color: #3182ce; font-size: 1.3rem;"></i> Academic Positions
   </h3>
 </div>
 
 <div style="display: flex; flex-direction: column; gap: 20px; margin-bottom: 40px; padding-left: 8px;">
   <div style="display: flex; align-items: flex-start; gap: 25px;">
-    <div style="min-width: 110px; color: #1a365d; font-weight: bold; font-size: 1.05rem;">Since 01/2022</div>
+    <div style="min-width: 110px; color: #3182ce; font-weight: bold; font-size: 1.05rem;">Since 01/2022</div>
     <div>
       <div style="font-weight: bold; color: #111; font-size: 1.1rem;">Research Assistant Professor</div>
       <div style="color: #555; font-size: 1.05rem;">Department of Electrical and Electronic Engineering, The Hong Kong Polytechnic University</div>
@@ -64,7 +64,7 @@ selected_publications: true
 </div>
 
 <!-- ========================================== -->
-<!-- SECTION: EDUCATION (翡翠深绿学术风) -->
+<!-- SECTION: EDUCATION (翡翠绿学术风) -->
 <!-- ========================================== -->
 <div style="margin-top: 50px; margin-bottom: 25px; border-bottom: 2px solid #2e7d32; padding-bottom: 8px;">
   <h3 style="font-weight: bold; font-size: 1.5rem; color: #2e7d32; display: flex; align-items: center;">
@@ -173,25 +173,25 @@ selected_publications: true
 </div>
 
 <!-- ========================================== -->
-<!-- SECTION: SYNERGISTIC ACTIVITIES (质感深绿) -->
+<!-- SECTION: SYNERGISTIC ACTIVITIES (升级：优雅青碧色) -->
 <!-- ========================================== -->
-<div style="margin-top: 50px; margin-bottom: 25px; border-bottom: 2px solid #004d40; padding-bottom: 8px;">
-  <h3 style="font-weight: bold; font-size: 1.5rem; color: #004d40; display: flex; align-items: center;">
-    <i class="fas fa-users" style="margin-right: 12px; color: #004d40; font-size: 1.3rem;"></i> Synergistic Activities
+<div style="margin-top: 50px; margin-bottom: 25px; border-bottom: 2px solid #319795; padding-bottom: 8px;">
+  <h3 style="font-weight: bold; font-size: 1.5rem; color: #319795; display: flex; align-items: center;">
+    <i class="fas fa-users" style="margin-right: 12px; color: #319795; font-size: 1.3rem;"></i> Synergistic Activities
   </h3>
 </div>
 
 <div style="display: flex; flex-direction: column; gap: 16px; margin-bottom: 20px; color: #222; padding-left: 5px;">
   <div style="display: flex; align-items: flex-start; gap: 12px;">
-    <i class="fas fa-check-circle" style="color: #004d40; margin-top: 5px; font-size: 1rem;"></i>
+    <i class="fas fa-check-circle" style="color: #319795; margin-top: 5px; font-size: 1rem;"></i>
     <div><strong>Journal Referee:</strong> <em>Nature Communications, Advanced Materials, Joule, Small</em>, etc.</div>
   </div>
   <div style="display: flex; align-items: flex-start; gap: 12px;">
-    <i class="fas fa-edit" style="color: #004d40; margin-top: 5px; font-size: 1rem;"></i>
+    <i class="fas fa-edit" style="color: #319795; margin-top: 5px; font-size: 1rem;"></i>
     <div><strong>Guest Editor:</strong> Special issue "Advanced Nanotechnologies in Perovskite Solar Cells" for <em>Crystals</em> (ISSN 2073-4352).</div>
   </div>
   <div style="display: flex; align-items: flex-start; gap: 12px;">
-    <i class="fas fa-microphone" style="color: #004d40; margin-top: 5px; font-size: 1rem;"></i>
+    <i class="fas fa-microphone" style="color: #319795; margin-top: 5px; font-size: 1rem;"></i>
     <div><strong>Invited Talks:</strong> 2025 13th National Conference on Organic Chemistry of Chinese Chemical Society, ICEO2025, CMC2025, 2024 NSFC-RGC Young Scholars Forum, etc.</div>
   </div>
 </div>
@@ -200,12 +200,10 @@ selected_publications: true
 <!-- GLOBAL FONTS & OVERRIDE -->
 <!-- ========================================== -->
 <style>
-  /* 强力锁定：既要 Times New Roman 的端庄，又要拉开舒适行距 */
   body, p, li, div, span, a, h1, h2, h3, h4, h5, h6, .profile, .contact-note, .subtitle {
     font-family: "Times New Roman", Times, serif !important;
   }
   
-  /* 照片下方三行行高精准优化（紧凑而整齐） */
   .profile .address {
     line-height: 1.5 !important;
     font-size: 1.05rem !important;
