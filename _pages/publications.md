@@ -8,7 +8,7 @@ nav_order: 2
 ---
 
 <!-- ========================================================================== -->
-<!-- 🎯 完美并排高级调色版：搜索框 + [高级学院色合体]学术链接组 -->
+<!-- 🎯 黄金工具栏：搜索框 + [高级冷调学术色合体]学术链接组 -->
 <!-- ========================================================================== -->
 <div class="search-and-icons-container" style="display: flex; justify-content: space-between; align-items: center; gap: 25px; margin-top: 15px; margin-bottom: 35px; flex-wrap: wrap;">
   
@@ -17,7 +17,7 @@ nav_order: 2
     {% include bib_search.liquid %}
   </div>
   
-  <!-- 右侧：图标+文字一体化的学术品牌大链接（调色升级版） -->
+  <!-- 右侧：图标+文字一体化的学术品牌大链接（色彩美化升级版） -->
   <div class="academic-icons-list" style="display: flex; gap: 22px; align-items: center; flex-wrap: wrap;">
     
     <!-- 1. Google Scholar -->
@@ -47,14 +47,20 @@ nav_order: 2
 
 <style>
   /* ========================================================================== */
-  /* 🎨 复合超链接美化：升级为低饱和度、高质感的深邃学院色系 */
+  /* 🎨 顶层大一统：强行让大标题 Publications 及正文全局锁定 Times New Roman */
+  /* ========================================================================== */
+  h1, .post-title, h1.post-title, .page-title, body, p, li, div, span, a, h2, h3, h4, h5, h6 {
+    font-family: "Times New Roman", Times, serif !important;
+  }
+
+  /* ========================================================================== */
+  /* 🎨 复合超链接美化：升级为高对比度、更具活力的冷调高级学术色系 */
   /* ========================================================================== */
   .academic-icon-link {
     display: inline-flex;
     align-items: center;
     text-decoration: none !important;
     transition: transform 0.2s ease, opacity 0.2s ease, color 0.2s ease !important;
-    font-family: "Times New Roman", Times, serif !important; /* 文字完美继承端庄正文字体 */
     font-weight: 500;
   }
 
@@ -70,15 +76,15 @@ nav_order: 2
     text-decoration: underline !important;
   }
   
-  /* 🎯 精准调色：告别刺眼高亮，换上深沉内敛的学院派御用色 */
-  .academic-icon-link.google-scholar { color: #205493 !important; } /* 优雅的燕尾服深蓝（Oxford Blue） */
-  .academic-icon-link.scopus { color: #166075 !important; }         /* 沉稳不失灵动的深海蓝绿（Deep Teal） */
-  .academic-icon-link.orcid { color: #5B8216 !important; }          /* 极为端庄稳重的学术橄榄绿（Olive Green） */
+  /* 🎯 超链接色彩升级：比原先更亮丽适配、更具大厂设计感的冷调色 */
+  .academic-icon-link.google-scholar { color: #2b6cb0 !important; } /* 深邃而高级的晴空蓝 */
+  .academic-icon-link.scopus { color: #2c7a7b !important; }         /* 极其专业的深沉冷海绿 */
+  .academic-icon-link.orcid { color: #4a7c2a !important; }          /* 端庄内敛的雨后松针绿 */
   
-  /* 灵动交互：鼠标悬停整体同步微放大，且颜色微微加深，极具现代质感 */
+  /* 灵动交互：鼠标悬停整体同步微放大，极具现代质感 */
   .academic-icon-link:hover {
-    transform: scale(1.03) !important;
-    opacity: 0.85 !important;
+    transform: scale(1.04) !important;
+    opacity: 0.8 !important;
   }
 
   /* 消除主题自带的搜索框底部多余间距，确保与右侧复合链接绝对齐平 */
@@ -86,52 +92,74 @@ nav_order: 2
     margin-bottom: 0 !important;
   }
 
-  /* 1. 🎯 核心修复：让论文标题（Title）变明显，并彻底解决名字“残缺/截断”问题 */
+  /* ========================================================================== */
+  /* 📊 终极三层阶梯切分：让标题、作者、期刊期卷页年份产生完美区分度 */
+  /* ========================================================================== */
+
+  /* 1. 🥇 第一梯队：论文标题（Title）—— 纯黑、强行加粗、突出主角地位 */
   .publications .title {
-    font-family: "Times New Roman", Times, serif !important;
-    font-weight: bold !important;      /* 强行加粗，让论文题目极为醒目、突出 */
-    color: #111111 !important;         /* 采用更深、更有高质感的纯深黑色 */
-    font-size: 1.15rem !important;     /* 字号稍微放大，建立完美学术主次层级 */
-    
-    /* 强行解除任何潜在的单行截断和溢出隐藏，确保论文名字 100% 完整完整展现 */
+    font-weight: bold !important;      
+    color: #111111 !important;         
+    font-size: 1.15rem !important;     
     white-space: normal !important;    
     overflow: visible !important;      
     text-overflow: unset !important;   
     display: block !important;
     max-width: 100% !important;
-    margin-bottom: 6px !important;     /* 与下方的作者名字留出舒适的微距 */
+    margin-bottom: 6px !important;     /* 与下方作者群留出舒适微距 */
   }
 
-  /* 2. 辅助烘托：使作者与期刊名字稍显低调 */
-  .publications .author,
-  .publications .periodical {
-    font-family: "Times New Roman", Times, serif !important;
-    color: #444444 !important;         /* 使用柔和的深灰色 */
+  /* 2. 🥈 第二梯队：作者名词群（Author）—— 降级为柔和烟灰色，使其内敛退后 */
+  .publications .author {
+    color: #555555 !important;         /* 烟灰色，让大段的合作者名字退居二线 */
     font-size: 1.0rem !important;
+    display: block !important;         /* 强制作者群自成一块，绝不与下方期刊行混杂 */
+    margin-bottom: 5px !important;     
+  }
+  
+  /* 特殊保护：确保作者群里你自己的名字不受灰色影响，依然维持亮眼的纯黑和下划线 */
+  .publications .author strong, 
+  .publications .author u,
+  .publications .author strong u {
+    color: #111111 !important;
+    font-weight: bold !important;
   }
 
-  /* 3. 年份色彩：将右侧年份换成较柔和但清晰可见的深炭灰色 */
-  .publications h2.year,
-  h2.year,
-  .publications h2,
-  .year {
+  /* 3. 🥉 第三梯队：期刊详细信息行（Periodical）—— 换色为高贵绯红，全行（含年份）锁死斜体 */
+  .publications .periodical {
+    color: #941c2c !important;         /* 🎯 核心修改：换成极其惊艳、充满老牌名校底蕴的学术博雅红 */
+    font-size: 1.0rem !important;
+    font-weight: 500 !important;       
+    font-style: italic !important;     /* 🎯 核心修改：强制让整行文本（包含期卷页码和末尾年份）全部化为优雅斜体 */
+    display: block !important;         /* 强制这一行独立成块 */
+  }
+  
+  /* 死锁期刊信息行内所有潜在嵌套子代、逗号及文本的色彩与斜体属性 */
+  .publications .periodical *,
+  .publications .periodical em,
+  .publications .periodical i {
+    color: #941c2c !important;         
+    font-style: italic !important;
+  }
+
+  /* 4. 年份色彩：将右侧悬浮的大年份换成柔和的深炭灰色 */
+  .publications h2.year, h2.year, .publications h2, .year {
     color: #444444 !important;   
     opacity: 1 !important;        
     font-weight: bold !important; 
-    font-family: "Times New Roman", Times, serif !important;
   }
 
-  /* 4. 列表松绑：让这一页的所有文字和论文列表留出舒适优雅的空隙 */
-  p, li, .publications li {
+  /* 5. 列表松绑：让每篇论文之间留出极具呼吸感的空隙，拒绝拥挤 */
+  .publications li {
     line-height: 1.8 !important;   
-    margin-bottom: 16px !important; 
-    font-family: "Times New Roman", Times, serif !important;
+    margin-bottom: 32px !important;    
   }
 
-  /* 5. 🎨 期刊彩色标签复原：确保 Nat. Comm. 等期刊徽章背景与颜色醒目闪亮 */
-  .publications abbr.badge, 
-  .publications .badge {
-    background-color: #b0129a !important; /* 完美复原经典的学术高质感品红/紫罗兰底色 */
+  /* ========================================================================== */
+  /* 🎨 其他辅助组件微调 */
+  /* ========================================================================== */
+  .publications abbr.badge, .publications .badge {
+    background-color: #b0129a !important; 
     color: #ffffff !important;
     padding: 4px 10px !important;
     border-radius: 4px !important;
@@ -141,7 +169,6 @@ nav_order: 2
     margin-right: 8px !important;
   }
 
-  /* 6. 顶栏绝对死锁：确保换页时顶部任务栏在尺寸、字体和高度上绝对静止，坚决不发生任何抖动 */
   .navbar, .navbar *, .nav-link, .nav-item, .navbar-brand {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
     line-height: 1.5 !important;
