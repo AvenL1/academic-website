@@ -1,58 +1,37 @@
 ---
-layout: page
-permalink: /publications/
-title: Publications
-description: These are the representative publications of the past two five-year periods. For an up-to-date citation report and metrics, please visit my Google Scholar profile.
-nav: true
-nav_order: 2
+layout: about
+title: LIU Kuan
+permalink: /
+subtitle: B.S. (USTB), Ph.D (PKU)
+
+profile:
+  align: right
+  image: prof_pic.png
+  address: >
+    Research Assistant Professor<br>
+    Department of Electrical and Electronic Engineering<br>
+    The Hong Kong Polytechnic University<br>
+    Email: kuan-lk.liu@polyu.edu.hk
+
+news: false
+selected_publications: true
 ---
 
-{% include bib_search.liquid %}
-
-<div class="publications">
-
-{% bibliography %}
-
+<div style="line-height: 1.8; font-size: 1.1rem; color: #222; text-align: left; margin-bottom: 40px;">
+  Dr. LIU Kuan is currently a Research Assistant Professor in the Department of Electrical and Electronic Engineering at The Hong Kong Polytechnic University (PolyU). He received his B.S. degree in Materials Science and Engineering from University of Science and Technology Beijing (USTB) in 2013, and his Ph.D. in Advanced Materials and Mechanics from Peking University (PKU) in 2018. 
+  <br><br>
+  He worked as a Postdoctoral Fellow under the supervision of Prof. LI Gang in the Department of Electronic and Information Engineering (EIE) at PolyU from 2019 to 2021. Prior to joining PolyU, he worked as a Visiting Scholar at the Institute of Physics, Chinese Academy of Sciences (2018-2019), and as a Research Assistant at the Technical University of Denmark (2015).
 </div>
 
-<style>
-  /* 1. 年份色彩：将右侧年份换成较柔和但清晰可见的深炭灰色，并剔除虚化 */
-  .publications h2.year,
-  h2.year,
-  .publications h2,
-  .year {
-    color: #444444 !important;   /* 柔和深灰色，清晰自然，告别死黑 */
-    opacity: 1 !important;        /* 锁定100%不透明度，防止被系统自带的淡化效果影响 */
-    font-weight: bold !important; /* 维持加粗，让时间轴层次分明 */
-  }
+<div style="margin-top: 50px; margin-bottom: 25px; border-bottom: 2px solid #2b6cb0; padding-bottom: 8px;">
+  <h3 style="font-weight: bold; font-size: 1.5rem; color: #2b6cb0; display: flex; align-items: center;">
+    <i class="fas fa-briefcase" style="margin-right: 12px; color: #2b6cb0; font-size: 1.3rem;"></i> Academic Positions
+  </h3>
+</div>
 
-  /* 2. 严格局部隔离：🛠️ 只拉开论文主内容区（.publications）内的文字和列表间距，绝对不外泄给导航栏的 li */
-  .publications p, 
-  .publications li, 
-  .publications a {
-    line-height: 1.8 !important;   
-  }
-  
-  .publications li {
-    margin-bottom: 20px !important; /* 让每篇论文卡片之间留出舒适优雅的空隙 */
-  }
-
-  /* 3. 基础死锁：网页底层与导航栏 100% 锁死官方原生无衬线字体 */
-  body, .navbar, .navbar *, .nav-link, .nav-item, .navbar-brand {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
-  }
-
-  /* 4. 精准正文替换：仅将论文卡片及列表内部的所有文本切换为端庄的 Times New Roman */
-  .publications, 
-  .publications * {
-    font-family: "Times New Roman", Times, serif !important;
-  }
-
-  /* 5. 终极免疫防线：🛠️ 强行重置导航栏的行高与外边距，彻底粉碎任何潜在的排版渗透与变形 */
-  .navbar, .navbar *, .nav-link, .nav-item, .navbar-brand {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
-    line-height: 1.5 !important;      /* 强行让导航栏回归标准高度 */
-    margin-bottom: 0 !important;      /* 彻底抹除论文列表带来的下边距污染 */
-    margin-top: 0 !important;
-  }
-</style>
+<div style="display: flex; flex-direction: column; gap: 20px; margin-bottom: 40px; padding-left: 8px;">
+  <div style="display: flex; align-items: flex-start; gap: 25px;">
+    <div style="min-width: 110px; color: #111; font-weight: bold; font-size: 1.05rem;">Since 01/2022</div>
+    <div>
+      <div style="font-weight: bold; color: #111; font-size: 1.1rem;">Research Assistant Professor</div>
+      <div style="color: #555; font-size: 1.05rem;">Department of Electrical and Electronic Engineering, The
