@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: #Co-first Author, *Corresponding Author. For an up-to-date citation report and metrics, please visit my Google Scholar profile.
+description: These are the representative publications of the past two five-year periods. For an up-to-date citation report and metrics, please visit my Google Scholar profile.
 nav: true
 nav_order: 2
 ---
