@@ -8,6 +8,7 @@ nav_order: 5
 
 <div class="teaching-list" style="line-height: 1.8; margin-top: 30px;">
 
+  <!-- 课程 1 -->
   <div class="teaching-item" style="margin-bottom: 35px; padding-bottom: 25px; border-bottom: 1px solid #eaeaea; display: flex; align-items: flex-start; gap: 25px;">
     <div style="min-width: 120px; color: #111; font-weight: bold; font-size: 1.05rem;">2022 — 2023</div>
     <div>
@@ -20,6 +21,7 @@ nav_order: 5
     </div>
   </div>
 
+  <!-- 课程 2 -->
   <div class="teaching-item" style="margin-bottom: 35px; padding-bottom: 25px; display: flex; align-items: flex-start; gap: 25px;">
     <div style="min-width: 120px; color: #111; font-weight: bold; font-size: 1.05rem;">2023 — 2026</div>
     <div>
@@ -34,8 +36,10 @@ nav_order: 5
 
 </div>
 
+<!-- ========================================== -->
+<!-- GLOBAL FONTS OVERRIDE -->
+<!-- ========================================== -->
 <style>
-  /* 强行锁定全页无死角切换为 Times New Roman，完美呼应主页 */
   body, p, li, div, span, a, h1, h2, h3, h4, h5, h6, .post-title {
     font-family: "Times New Roman", Times, serif !important;
   }
