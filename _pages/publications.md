@@ -10,8 +10,8 @@ nav_order: 2
 <div class="academic-profiles" style="margin-top: -10px; margin-bottom: 30px; font-size: 1.05rem; color: #222; font-family: 'Times New Roman', Times, serif;">
   Find me on 
   <a href="https://scholar.google.com/citations?user=https://scholar.google.com/citations?hl=en&user=wT0rZAQAAAAJ" target="_blank" class="academic-link">Google Scholar</a>, 
-  <a href="https://www.scopus.com/authid/detail.uri?authorId=https://www.scopus.com/authid/detail.uri?authorId=57040217200" target="_blank" class="academic-link">Scopus</a>, and 
-  <a href="https://orcid.org/https://orcid.org/0000-0002-4874-141X" target="_blank" class="academic-link">ORCID</a>.
+  <a href="https://www.scopus.com/authid/detail.uri?authorId=57040217200" target="_blank" class="academic-link">Scopus</a>, and 
+  <a href="https://orcid.org/0000-0002-4874-141X" target="_blank" class="academic-link">ORCID</a>.
 </div>
 
 {% include bib_search.liquid %}
