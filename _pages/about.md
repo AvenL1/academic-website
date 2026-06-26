@@ -6,7 +6,7 @@ subtitle: B.S. (USTB), Ph.D (PKU)
 
 profile:
   align: right
-  image: prof_pic.png    # 🛠️ 顺便帮你把代码里的图片后缀微调回了标准的 .png
+  image: prof_pic.png
   address: >
     Research Assistant Professor<br>
     Department of Electrical and Electronic Engineering<br>
@@ -142,8 +142,14 @@ selected_publications: true
 </div>
 
 <style>
+  /* 1. 主体内容维持高质感的 Times New Roman 字体 */
   body, p, li, div, span, a, h1, h2, h3, h4, h5, h6, .profile, .contact-note, .subtitle {
     font-family: "Times New Roman", Times, serif !important;
+  }
+  
+  /* 2. 🛠️ 核心修复：强行将任务栏（包含菜单链接和名字）恢复回原生的现代无衬线风格 */
+  .navbar, .navbar *, .nav-link, .nav-item {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
   }
   
   .profile .address {
