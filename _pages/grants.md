@@ -43,6 +43,17 @@ nav_order: 4     # 🛠️ 导航栏排序，4 代表它会排在 Patents 和 Te
 </div>
 
 <style>
+  /* 1. 页面内部的项目卡片和正文维持 Times New Roman 字体 */
+  body, p, li, div, span, a, h1, h2, h3, h4, h5, h6 {
+    font-family: "Times New Roman", Times, serif !important;
+  }
+  
+  /* 2. 🛠️ 核心修复：强行将顶部任务栏（Navbar）完美恢复回原生的现代无衬线风格，拒绝抖动 */
+  .navbar, .navbar *, .nav-link, .nav-item {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  }
+</style>
+<style>
   body, p, li, div, span, a, h1, h2, h3, h4, h5, h6, .post-title {
     font-family: "Times New Roman", Times, serif !important;
   }
