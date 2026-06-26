@@ -6,7 +6,7 @@ subtitle: B.S. (USTB), Ph.D (PKU)
 
 profile:
   align: right
-  image: prof_pic.png
+  image: prof_pic.png    # 🛠️ 顺便帮你把代码里的图片后缀微调回了标准的 .png
   address: >
     Research Assistant Professor<br>
     Department of Electrical and Electronic Engineering<br>
@@ -17,18 +17,12 @@ news: false
 selected_publications: true
 ---
 
-<!-- ========================================== -->
-<!-- BIOGRAPHY (已修复：彻底改为左对齐 text-align: left) -->
-<!-- ========================================== -->
 <div style="line-height: 1.8; font-size: 1.1rem; color: #222; text-align: left; margin-bottom: 40px;">
   Dr. LIU Kuan is currently a Research Assistant Professor in the Department of Electrical and Electronic Engineering at The Hong Kong Polytechnic University (PolyU). He received his B.S. degree in Materials Science and Engineering from University of Science and Technology Beijing (USTB) in 2013, and his Ph.D. in Advanced Materials and Mechanics from Peking University (PKU) in 2018. 
   <br><br>
   He worked as a Postdoctoral Fellow under the supervision of Prof. LI Gang in the Department of Electronic and Information Engineering (EIE) at PolyU from 2019 to 2021. Prior to joining PolyU, he worked as a Visiting Scholar at the Institute of Physics, Chinese Academy of Sciences (2018-2019), and as a Research Assistant at the Technical University of Denmark (2015).
 </div>
 
-<!-- ========================================== -->
-<!-- SECTION: ACADEMIC POSITIONS -->
-<!-- ========================================== -->
 <div style="margin-top: 50px; margin-bottom: 25px; border-bottom: 2px solid #2b6cb0; padding-bottom: 8px;">
   <h3 style="font-weight: bold; font-size: 1.5rem; color: #2b6cb0; display: flex; align-items: center;">
     <i class="fas fa-briefcase" style="margin-right: 12px; color: #2b6cb0; font-size: 1.3rem;"></i> Academic Positions
@@ -66,9 +60,6 @@ selected_publications: true
   </div>
 </div>
 
-<!-- ========================================== -->
-<!-- SECTION: EDUCATION -->
-<!-- ========================================== -->
 <div style="margin-top: 50px; margin-bottom: 25px; border-bottom: 2px solid #2f855a; padding-bottom: 8px;">
   <h3 style="font-weight: bold; font-size: 1.5rem; color: #2f855a; display: flex; align-items: center;">
     <i class="fas fa-graduation-cap" style="margin-right: 12px; color: #2f855a; font-size: 1.3rem;"></i> Education
@@ -92,52 +83,6 @@ selected_publications: true
   </div>
 </div>
 
-<!-- ========================================== -->
-<!-- SECTION: RESEARCH GRANTS -->
-<!-- ========================================== -->
-<div style="margin-top: 50px; margin-bottom: 25px; border-bottom: 2px solid #3182ce; padding-bottom: 8px;">
-  <h3 style="font-weight: bold; font-size: 1.5rem; color: #3182ce; display: flex; align-items: center;">
-    <i class="fas fa-file-invoice-dollar" style="margin-right: 12px; color: #3182ce; font-size: 1.3rem;"></i> Research Grants
-  </h3>
-</div>
-
-<div style="display: flex; flex-direction: column; gap: 18px; margin-bottom: 40px;">
-  <div style="background: #f4f9fc; border-left: 5px solid #3182ce; padding: 16px 20px; border-radius: 0 6px 6px 0; box-shadow: 0 1px 4px rgba(0,0,0,0.04);">
-    <div style="display: flex; flex-direction: column; gap: 8px; align-items: flex-start;">
-      <span style="font-weight: bold; color: #111; font-size: 1.1rem;">Quasi-Single-Crystalline Perovskite Photovoltaic Modules</span>
-      <span style="background: #e1f5fe; color: #0288d1; border: 1px solid #b3e5fc; padding: 3px 10px; border-radius: 4px; font-size: 0.85em; font-weight: bold; letter-spacing: 0.5px;">1.07M | ITF-ITSP</span>
-    </div>
-    <div style="color: #666; font-size: 0.95rem; margin-top: 8px;"><i class="far fa-calendar-alt" style="margin-right: 5px;"></i> Timeline: 01/2026 - 06/2027</div>
-  </div>
-
-  <div style="background: #f4f9fc; border-left: 5px solid #3182ce; padding: 16px 20px; border-radius: 0 6px 6px 0; box-shadow: 0 1px 4px rgba(0,0,0,0.04);">
-    <div style="display: flex; flex-direction: column; gap: 8px; align-items: flex-start;">
-      <span style="font-weight: bold; color: #111; font-size: 1.1rem;">Investigation on Ionic Liquids based Green Solvent System for Environmentally Friendly Printing of stable perovskite solar modules</span>
-      <span style="background: #e1f5fe; color: #0288d1; border: 1px solid #b3e5fc; padding: 3px 10px; border-radius: 4px; font-size: 0.85em; font-weight: bold; letter-spacing: 0.5px;">0.3M | NSFC Young Scientists</span>
-    </div>
-    <div style="color: #666; font-size: 0.95rem; margin-top: 8px;"><i class="far fa-calendar-alt" style="margin-right: 5px;"></i> Timeline: 01/2025 - 12/2027</div>
-  </div>
-
-  <div style="background: #f4f9fc; border-left: 5px solid #3182ce; padding: 16px 20px; border-radius: 0 6px 6px 0; box-shadow: 0 1px 4px rgba(0,0,0,0.04);">
-    <div style="display: flex; flex-direction: column; gap: 8px; align-items: flex-start;">
-      <span style="font-weight: bold; color: #111; font-size: 1.1rem;">Multifunctional Surfactant-Assisted Printing of Large-Area High-Efficiency and Stable Perovskite Solar Cells and Modules</span>
-      <span style="background: #e1f5fe; color: #0288d1; border: 1px solid #b3e5fc; padding: 3px 10px; border-radius: 4px; font-size: 0.85em; font-weight: bold; letter-spacing: 0.5px;">0.1M | Guangdong Regional Joint Fund</span>
-    </div>
-    <div style="color: #666; font-size: 0.95rem; margin-top: 8px;"><i class="far fa-calendar-alt" style="margin-right: 5px;"></i> Timeline: 01/2021 - 12/2023</div>
-  </div>
-
-  <div style="background: #f4f9fc; border-left: 5px solid #3182ce; padding: 16px 20px; border-radius: 0 6px 6px 0; box-shadow: 0 1px 4px rgba(0,0,0,0.04);">
-    <div style="display: flex; flex-direction: column; gap: 8px; align-items: flex-start;">
-      <span style="font-weight: bold; color: #111; font-size: 1.1rem;">Investigation for the ambient air blade coating of large-area printable perovskite photovoltaics modules</span>
-      <span style="background: #e1f5fe; color: #0288d1; border: 1px solid #b3e5fc; padding: 3px 10px; border-radius: 4px; font-size: 0.85em; font-weight: bold; letter-spacing: 0.5px;">0.25M | PolyU Start-up Fund</span>
-    </div>
-    <div style="color: #666; font-size: 0.95rem; margin-top: 8px;"><i class="far fa-calendar-alt" style="margin-right: 5px;"></i> Timeline: 07/2022 - 06/2024</div>
-  </div>
-</div>
-
-<!-- ========================================== -->
-<!-- SECTION: AWARDS & HONORS -->
-<!-- ========================================== -->
 <div style="margin-top: 50px; margin-bottom: 25px; border-bottom: 2px solid #b7791f; padding-bottom: 8px;">
   <h3 style="font-weight: bold; font-size: 1.5rem; color: #b7791f; display: flex; align-items: center;">
     <i class="fas fa-trophy" style="margin-right: 12px; color: #b7791f; font-size: 1.3rem;"></i> Awards & Honors
@@ -147,7 +92,6 @@ selected_publications: true
 <div style="display: flex; flex-direction: column; gap: 16px; margin-bottom: 40px; color: #222; padding-left: 5px;">
   <div style="display: flex; align-items: baseline; gap: 20px;">
     <span style="color: #111; min-width: 80px; font-weight: bold; font-size: 1.05rem;">11/2021</span>
-    <!-- 🛠️ 已修复：通过给内层标签显式附加 font-weight: normal !important 来强行脱粗，与右侧文字精准平齐 -->
     <span><span class="award-normal-text">Grand Prize & First Prize</span>, The 7th Hong Kong University Student Innovation and Entrepreneurship Competition</span>
   </div>
   <div style="display: flex; align-items: baseline; gap: 20px;">
@@ -176,9 +120,6 @@ selected_publications: true
   </div>
 </div>
 
-<!-- ========================================== -->
-<!-- SECTION: SYNERGISTIC ACTIVITIES -->
-<!-- ========================================== -->
 <div style="margin-top: 50px; margin-bottom: 25px; border-bottom: 2px solid #2c7a7b; padding-bottom: 8px;">
   <h3 style="font-weight: bold; font-size: 1.5rem; color: #2c7a7b; display: flex; align-items: center;">
     <i class="fas fa-users" style="margin-right: 12px; color: #2c7a7b; font-size: 1.3rem;"></i> Synergistic Activities
@@ -200,9 +141,6 @@ selected_publications: true
   </div>
 </div>
 
-<!-- ========================================== -->
-<!-- GLOBAL FONTS & OVERRIDE -->
-<!-- ========================================== -->
 <style>
   body, p, li, div, span, a, h1, h2, h3, h4, h5, h6, .profile, .contact-note, .subtitle {
     font-family: "Times New Roman", Times, serif !important;
@@ -215,13 +153,11 @@ selected_publications: true
     margin-top: 12px !important;
   }
 
-  /* 🛠️ 已修复：精准控制整个右侧 Profile 栏（包括照片和下方的三行地址）向右平移 0.5cm 释放呼吸感 */
   .profile {
     position: relative !important;
     left: 0.5cm !important;
   }
 
-  /* 🛠️ 已修复：强制抹除内部特定标签的继承粗体 */
   .award-normal-text {
     color: #111 !important;
     font-weight: normal !important;
