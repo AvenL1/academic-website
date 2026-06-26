@@ -8,7 +8,7 @@ nav_order: 2
 ---
 
 <!-- ========================================================================== -->
-<!-- 🎯 完美并排升级版：搜索框 + [图标+文字一体化]学术大链接组（左右对齐） -->
+<!-- 🎯 完美并排高级调色版：搜索框 + [高级学院色合体]学术链接组 -->
 <!-- ========================================================================== -->
 <div class="search-and-icons-container" style="display: flex; justify-content: space-between; align-items: center; gap: 25px; margin-top: 15px; margin-bottom: 35px; flex-wrap: wrap;">
   
@@ -17,20 +17,20 @@ nav_order: 2
     {% include bib_search.liquid %}
   </div>
   
-  <!-- 右侧：图标+文字一体化的学术品牌大链接（对应图五复合超链接需求） -->
+  <!-- 右侧：图标+文字一体化的学术品牌大链接（调色升级版） -->
   <div class="academic-icons-list" style="display: flex; gap: 22px; align-items: center; flex-wrap: wrap;">
     
-    <!-- 1. Google Scholar (图标+文字一体化超链接) -->
+    <!-- 1. Google Scholar -->
     <a href="https://scholar.google.com/citations?hl=en&user=wT0rZAQAAAAJ" target="_blank" class="academic-icon-link google-scholar" title="Google Scholar">
       <i class="ai ai-google-scholar"></i><span class="link-label">Google Scholar</span>
     </a>
     
-    <!-- 2. Scopus (图标+文字一体化超链接) -->
+    <!-- 2. Scopus -->
     <a href="https://www.scopus.com/authid/detail.uri?authorId=57040217200" target="_blank" class="academic-icon-link scopus" title="Scopus">
       <i class="ai ai-scopus"></i><span class="link-label">Scopus</span>
     </a>
     
-    <!-- 3. ORCID (图标+文字一体化超链接) -->
+    <!-- 3. ORCID -->
     <a href="https://orcid.org/0000-0002-4874-141X" target="_blank" class="academic-icon-link orcid" title="ORCID">
       <i class="ai ai-orcid"></i><span class="link-label">ORCID</span>
     </a>
@@ -47,14 +47,14 @@ nav_order: 2
 
 <style>
   /* ========================================================================== */
-  /* 🎨 复合超链接美化：图标与文字完美融合、锁定品牌色与悬停动效 */
+  /* 🎨 复合超链接美化：升级为低饱和度、高质感的深邃学院色系 */
   /* ========================================================================== */
   .academic-icon-link {
     display: inline-flex;
     align-items: center;
     text-decoration: none !important;
-    transition: transform 0.2s ease, opacity 0.2s ease !important;
-    font-family: "Times New Roman", Times, serif !important; /* 文字无缝继承端庄正文字体 */
+    transition: transform 0.2s ease, opacity 0.2s ease, color 0.2s ease !important;
+    font-family: "Times New Roman", Times, serif !important; /* 文字完美继承端庄正文字体 */
     font-weight: 500;
   }
 
@@ -66,19 +66,19 @@ nav_order: 2
 
   /* 定制链接文字样式，自带学术规范下划线 */
   .academic-icon-link .link-label {
-    font-size: 1.1rem !important;
+    font-size: 1.05rem !important;
     text-decoration: underline !important;
   }
   
-  /* 统一为三大平台的官方标准品牌色（图标与文字共享颜色） */
-  .academic-icon-link.google-scholar { color: #4285F4 !important; } /* 谷歌蓝 */
-  .academic-icon-link.scopus { color: #007398 !important; }         /* Scopus 蓝绿 */
-  .academic-icon-link.orcid { color: #A6CE39 !important; }          /* ORCID 官方绿 */
+  /* 🎯 精准调色：告别刺眼高亮，换上深沉内敛的学院派御用色 */
+  .academic-icon-link.google-scholar { color: #205493 !important; } /* 优雅的燕尾服深蓝（Oxford Blue） */
+  .academic-icon-link.scopus { color: #166075 !important; }         /* 沉稳不失灵动的深海蓝绿（Deep Teal） */
+  .academic-icon-link.orcid { color: #5B8216 !important; }          /* 极为端庄稳重的学术橄榄绿（Olive Green） */
   
-  /* 鼠标悬停整体（图标+文字）同步优雅放大并带有微透明反馈 */
+  /* 灵动交互：鼠标悬停整体同步微放大，且颜色微微加深，极具现代质感 */
   .academic-icon-link:hover {
-    transform: scale(1.05) !important;
-    opacity: 0.8 !important;
+    transform: scale(1.03) !important;
+    opacity: 0.85 !important;
   }
 
   /* 消除主题自带的搜索框底部多余间距，确保与右侧复合链接绝对齐平 */
@@ -102,7 +102,7 @@ nav_order: 2
     margin-bottom: 6px !important;     /* 与下方的作者名字留出舒适的微距 */
   }
 
-  /* 2. 辅助烘托：使作者与期刊名字稍显低调，以衬托上方论文标题的绝对主角地位 */
+  /* 2. 辅助烘托：使作者与期刊名字稍显低调 */
   .publications .author,
   .publications .periodical {
     font-family: "Times New Roman", Times, serif !important;
