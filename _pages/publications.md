@@ -7,14 +7,27 @@ nav: true
 nav_order: 2
 ---
 
-<div class="academic-profiles" style="margin-top: -10px; margin-bottom: 30px; font-size: 1.05rem; color: #222; font-family: 'Times New Roman', Times, serif;">
-  Find me on 
-  <a href="https://scholar.google.com/citations?user=https://scholar.google.com/citations?hl=en&user=wT0rZAQAAAAJ" target="_blank" class="academic-link">Google Scholar</a>, 
-  <a href="https://www.scopus.com/authid/detail.uri?authorId=57040217200" target="_blank" class="academic-link">Scopus</a>, and 
-  <a href="https://orcid.org/0000-0002-4874-141X" target="_blank" class="academic-link">ORCID</a>.
-</div>
+<div class="search-and-icons-container" style="display: flex; justify-content: space-between; align-items: center; gap: 20px; margin-top: 15px; margin-bottom: 30px; flex-wrap: wrap;">
+  
+  <div class="search-box-wrapper" style="flex: 1; min-width: 250px;">
+    {% include bib_search.liquid %}
+  </div>
+  
+  <div class="academic-icons-list" style="display: flex; gap: 18px; align-items: center; padding-bottom: 2px;">
+    <a href="https://scholar.google.com/citations?hl=en&user=wT0rZAQAAAAJ" target="_blank" class="academic-icon-link google-scholar" title="Google Scholar">
+      <i class="ai ai-google-scholar"></i>
+    </a>
+    
+    <a href="https://www.scopus.com/authid/detail.uri?authorId=57040217200" target="_blank" class="academic-icon-link scopus" title="Scopus">
+      <i class="ai ai-scopus"></i>
+    </a>
+    
+    <a href="https://orcid.org/0000-0002-4874-141X" target="_blank" class="academic-icon-link orcid" title="ORCID">
+      <i class="ai ai-orcid"></i>
+    </a>
+  </div>
 
-{% include bib_search.liquid %}
+</div>
 
 <div class="publications">
 
@@ -23,14 +36,32 @@ nav_order: 2
 </div>
 
 <style>
-  /* 🔗 链接美化：定制学术超链接的专属蓝色、下划线与悬停变色动效 */
-  .academic-link {
-    color: #106ba3 !important;
-    text-decoration: underline !important;
-    transition: color 0.2s ease-in-out;
+  /* ========================================================================== */
+  /* 🎨 学术品牌图标：定制专属配色、完美对齐尺寸与悬停微放大动效 */
+  /* ========================================================================== */
+  .academic-icon-link {
+    font-size: 2.0rem !important;      /* 完美匹配搜索框高度的精致尺寸 */
+    transition: transform 0.2s ease, opacity 0.2s ease !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none !important;
   }
-  .academic-link:hover {
-    color: #005A32 !important; /* 鼠标悬停时呈现优雅的学术绿 */
+  
+  /* 精准锁定三大平台的官方标准品牌色 */
+  .academic-icon-link.google-scholar { color: #4285F4 !important; } /* 谷歌经典蓝 */
+  .academic-icon-link.scopus { color: #007398 !important; }         /* Scopus 品牌蓝绿 */
+  .academic-icon-link.orcid { color: #A6CE39 !important; }          /* ORCID 官方标志绿 */
+  
+  /* 灵动交互：鼠标悬停时图标优雅地放大 1.1 倍 */
+  .academic-icon-link:hover {
+    transform: scale(1.1) !important;
+    opacity: 0.8 !important;
+  }
+
+  /* 消除主题自带的搜索框底部多余间距，确保与右侧图标绝对齐平 */
+  .search-box-wrapper input {
+    margin-bottom: 0 !important;
   }
 
   /* 1. 🎯 核心修复：让论文标题（Title）变明显，并彻底解决名字“残缺/截断”问题 */
