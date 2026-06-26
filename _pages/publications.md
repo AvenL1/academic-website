@@ -8,7 +8,7 @@ nav_order: 2
 ---
 
 <!-- ========================================================================== -->
-<!-- 🎯 黄金工具栏：搜索框 + [高端大尺寸图标组合]学术链接组 -->
+<!-- 🎯 黄金工具栏：搜索框 + [高级冷调学术色合体]学术链接组 -->
 <!-- ========================================================================== -->
 <div class="search-and-icons-container" style="display: flex; justify-content: space-between; align-items: center; gap: 25px; margin-top: 15px; margin-bottom: 35px; flex-wrap: wrap;">
   
@@ -41,16 +41,32 @@ nav_order: 2
 
 </div>
 
+<!-- ========================================================================== -->
+<!-- 🚀 核心黑科技：自动化将专属 HTML 网址无缝绑死在论文标题上的智能脚本 -->
+<!-- ========================================================================== -->
+<script>
+  window.addEventListener('load', function() {
+    document.querySelectorAll('.publications li').forEach(function(entry) {
+      var titleDiv = entry.querySelector('.title');
+      var linkBtn = entry.querySelector('.links a[href^="http"]');
+      if (titleDiv && linkBtn && !titleDiv.querySelector('a')) {
+        var url = linkBtn.getAttribute('href');
+        titleDiv.innerHTML = '<a href="' + url + '" target="_blank">' + titleDiv.innerHTML + '</a>';
+      }
+    });
+  });
+</script>
+
 <style>
   /* ========================================================================== */
-  /* 🎨 顶层大一统：强行让大标题 Publications 及正文全局锁定 Times New Roman */
+  /* 🎨 顶层大一统样式表 */
   /* ========================================================================== */
   h1, .post-title, h1.post-title, .page-title, body, p, li, div, span, a, h2, h3, h4, h5, h6 {
     font-family: "Times New Roman", Times, serif !important;
   }
 
   /* ========================================================================== */
-  /* 🎨 复合超链接美化：图标等比例放大、物理级齐平矫正样式 */
+  /* 🎨 复合超链接组件：图标等比例放大样式 */
   /* ========================================================================== */
   .academic-icon-link {
     display: inline-flex;
@@ -60,17 +76,8 @@ nav_order: 2
     transition: transform 0.2s ease, opacity 0.2s ease, color 0.2s ease !important;
     font-weight: 500;
   }
-  .academic-icon-link i {
-    font-size: 2.0rem !important;  
-    margin-right: 8px !important;  
-    display: inline-flex;
-    align-items: center;
-  }
-  .academic-icon-link .link-label {
-    font-size: 1.1rem !important;
-    text-decoration: underline !important;
-    line-height: 1.0 !important;
-  }
+  .academic-icon-link i { font-size: 2.0rem !important; margin-right: 8px !important; display: inline-flex; align-items: center; }
+  .academic-icon-link .link-label { font-size: 1.1rem !important; text-decoration: underline !important; line-height: 1.0 !important; }
   .academic-icon-link.google-scholar { color: #2b6cb0 !important; } 
   .academic-icon-link.scopus { color: #2c7a7b !important; }         
   .academic-icon-link.orcid { color: #4a7c2a !important; }          
@@ -93,26 +100,28 @@ nav_order: 2
     margin-bottom: 6px !important;     
   }
 
-  /* 🎯 新增：控制标题内超链接的颜色，平时维持高质感纯黑，拒绝原生蓝色 */
+  /* 🎯 控制动态赋予的标题超链接：平时维持尊贵纯黑，不显示下划线 */
   .publications .title a {
     color: #111111 !important;
-    text-decoration: none !important;  /* 平时隐藏下划线，保持界面绝对干净规整 */
+    text-decoration: none !important;  
     transition: color 0.2s ease-in-out, text-decoration 0.2s ease-in-out !important;
   }
 
-  /* 🎯 新增：鼠标移上论文标题时的灵动交互——无缝变成博雅红并浮现下划线，极具高级感 */
+  /* 🎯 鼠标挪到标题上时：瞬间变为华丽的博雅红并浮现学术下划线 */
   .publications .title a:hover {
-    color: #941c2c !important;         /* 悬停时变成完美的博雅红 */
+    color: #941c2c !important;         
     text-decoration: underline !important;
   }
 
-  /* 2. 🥈 第二梯队：作者名词群（Author） */
+  /* 2. 🥈 第二梯队：作者名词群（Author）—— 优雅烟灰 */
   .publications .author {
     color: #555555 !important;         
     font-size: 1.0rem !important;
     display: block !important;         
     margin-bottom: 5px !important;     
   }
+  
+  /* 强行保护：锁定整页所有历史文献中刘宽老师的名字绝对加粗且带底线 */
   .publications .author strong, 
   .publications .author u,
   .publications .author strong u {
@@ -120,7 +129,7 @@ nav_order: 2
     font-weight: bold !important;
   }
 
-  /* 3. 🥉 第三梯队：期刊详细信息行（Periodical） */
+  /* 3. 🥉 第三梯队：期刊详细信息行（Periodical）—— 高级博雅红 + 全行锁死斜体 */
   .publications .periodical {
     color: #941c2c !important;         
     font-size: 1.0rem !important;
@@ -135,35 +144,12 @@ nav_order: 2
     font-style: italic !important;
   }
 
-  /* 4. 年份色彩 */
-  .publications h2.year, h2.year, .publications h2, .year {
-    color: #444444 !important;   
-    opacity: 1 !important;        
-    font-weight: bold !important; 
-  }
+  .publications h2.year, h2.year, .publications h2, .year { color: #444444 !important; opacity: 1 !important; font-weight: bold !important; }
+  .publications li { line-height: 1.8 !important; margin-bottom: 32px !important; }
 
-  /* 5. 列表松绑 */
-  .publications li {
-    line-height: 1.8 !important;   
-    margin-bottom: 32px !important;    
-  }
-
-  /* 6. 其他辅助组件 */
   .publications abbr.badge, .publications .badge {
-    background-color: #b0129a !important; 
-    color: #ffffff !important;
-    padding: 4px 10px !important;
-    border-radius: 4px !important;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif !important; 
-    font-weight: bold !important;
-    display: inline-block !important;
-    margin-right: 8px !important;
+    background-color: #b0129a !important; color: #ffffff !important; padding: 4px 10px !important; border-radius: 4px !important;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif !important; font-weight: bold !important; display: inline-block !important; margin-right: 8px !important;
   }
-
-  .navbar, .navbar *, .nav-link, .nav-item, .navbar-brand {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
-    line-height: 1.5 !important;
-    margin-bottom: 0 !important;
-    margin-top: 0 !important;
-  }
+  .navbar, .navbar *, .nav-link, .nav-item, .navbar-brand { font-family: -apple-system, BlinkMacSystemFont, sans-serif !important; line-height: 1.5 !important; margin-bottom: 0 !important; margin-top: 0 !important; }
 </style>
