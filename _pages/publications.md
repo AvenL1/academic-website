@@ -66,6 +66,13 @@ nav_order: 2
   }
 
   /* ========================================================================== */
+  /* 🎯 核心修改：精准移除图七中丑陋冗余的“HTML方框”按钮，还页面绝对清爽 */
+  /* ========================================================================== */
+  .publications .links {
+    display: none !important;  /* 强行让底部的方框按钮整行隐形，但DOM依然可读 */
+  }
+
+  /* ========================================================================== */
   /* 🎨 复合超链接组件：图标等比例放大样式 */
   /* ========================================================================== */
   .academic-icon-link {
@@ -100,14 +107,14 @@ nav_order: 2
     margin-bottom: 6px !important;     
   }
 
-  /* 🎯 控制动态赋予的标题超链接：平时维持尊贵纯黑，不显示下划线 */
+  /* 控制动态赋予的标题超链接：平时维持尊贵纯黑，不显示下划线 */
   .publications .title a {
     color: #111111 !important;
     text-decoration: none !important;  
     transition: color 0.2s ease-in-out, text-decoration 0.2s ease-in-out !important;
   }
 
-  /* 🎯 鼠标挪到标题上时：瞬间变为华丽的博雅红并浮现学术下划线 */
+  /* 鼠标挪到标题上时：瞬间变为华丽的博雅红并浮现学术下划线 */
   .publications .title a:hover {
     color: #941c2c !important;         
     text-decoration: underline !important;
