@@ -17,52 +17,36 @@
   /* ========================================================================== */
   .academic-icon-link {
     display: inline-flex;
-    align-items: center;       /* 强行锁死：让图标与文字在任何分辨率下都绝对垂直居中 */
+    align-items: center;       
     justify-content: center;
     text-decoration: none !important;
     transition: transform 0.2s ease, opacity 0.2s ease, color 0.2s ease !important;
     font-weight: 500;
   }
-
-  /* 🎯 核心修改：大幅放大矢量图标尺寸，拉满体量感，解决图六过小的问题 */
   .academic-icon-link i {
-    font-size: 2.0rem !important;  /* 从 1.6rem 满血放大到 2.0rem，大小完美统一 */
-    margin-right: 8px !important;  /* 稍微加宽间距，排版更加疏朗尊贵 */
+    font-size: 2.0rem !important;  
+    margin-right: 8px !important;  
     display: inline-flex;
     align-items: center;
   }
-
-  /* 微调链接文字大小，使其与放大后的图标在视觉重量上达到黄金平衡 */
   .academic-icon-link .link-label {
     font-size: 1.1rem !important;
     text-decoration: underline !important;
     line-height: 1.0 !important;
   }
-  
-  /* 高级冷调学术色系 */
   .academic-icon-link.google-scholar { color: #2b6cb0 !important; } 
   .academic-icon-link.scopus { color: #2c7a7b !important; }         
   .academic-icon-link.orcid { color: #4a7c2a !important; }          
-  
-  /* 悬停动效 */
-  .academic-icon-link:hover {
-    transform: scale(1.04) !important;
-    opacity: 0.8 !important;
-  }
-
-  /* 消除搜索框底部多余间距 */
-  .search-box-wrapper input {
-    margin-bottom: 0 !important;
-  }
+  .academic-icon-link:hover { transform: scale(1.04) !important; opacity: 0.8 !important; }
+  .search-box-wrapper input { margin-bottom: 0 !important; }
 
   /* ========================================================================== */
   /* 📊 终极三层阶梯切分样式（博雅红斜体版） */
   /* ========================================================================== */
 
-  /* 1. 🥇 第一梯队：论文标题（Title） */
+  /* 1. 🥇 第一梯队：论文标题（Title）基础样式 */
   .publications .title {
     font-weight: bold !important;      
-    color: #111111 !important;         
     font-size: 1.15rem !important;     
     white-space: normal !important;    
     overflow: visible !important;      
@@ -72,6 +56,19 @@
     margin-bottom: 6px !important;     
   }
 
+  /* 🎯 新增：控制标题内超链接的颜色，平时维持高质感纯黑，拒绝原生蓝色 */
+  .publications .title a {
+    color: #111111 !important;
+    text-decoration: none !important;  /* 平时隐藏下划线，保持界面绝对干净规整 */
+    transition: color 0.2s ease-in-out, text-decoration 0.2s ease-in-out !important;
+  }
+
+  /* 🎯 新增：鼠标移上论文标题时的灵动交互——无缝变成博雅红并浮现下划线，极具高级感 */
+  .publications .title a:hover {
+    color: #941c2c !important;         /* 悬停时变成完美的博雅红 */
+    text-decoration: underline !important;
+  }
+
   /* 2. 🥈 第二梯队：作者名词群（Author） */
   .publications .author {
     color: #555555 !important;         
@@ -79,7 +76,6 @@
     display: block !important;         
     margin-bottom: 5px !important;     
   }
-  
   .publications .author strong, 
   .publications .author u,
   .publications .author strong u {
@@ -95,7 +91,6 @@
     font-style: italic !important;     
     display: block !important;         
   }
-  
   .publications .periodical *,
   .publications .periodical em,
   .publications .periodical i {
