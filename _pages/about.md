@@ -141,30 +141,30 @@ selected_publications: true
   </div>
 </div>
 
-<!-- ========================================== -->
-<!-- 全站导航栏尺寸死锁与内容字体对齐金装补丁 -->
-<!-- ========================================== -->
 <style>
-  /* 1. 网页底层与导航栏：100% 锁死官方原生无衬线字体，确保换页时任务栏尺寸、高度绝对静止 */
-  body, .navbar, .navbar *, .nav-link, .nav-item, .navbar-brand {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
-  }
-
-  /* 2. 学术正文区：精准将各个板块内部的介绍、卡片、论文列表切换为端庄的 Times New Roman */
-  p, li, h1, h2, h3, h4, h5, h6,
-  .about, .about *, 
-  .publications, .publications *, 
-  .projects, .projects *, 
-  .teaching-list, .teaching-list *, 
-  .grants-list, .grants-list * {
+  /* 1. 主体内容维持高质感的 Times New Roman 字体 */
+  body, p, li, div, span, a, h1, h2, h3, h4, h5, h6, .profile, .contact-note, .subtitle {
     font-family: "Times New Roman", Times, serif !important;
   }
-
-  /* 3. 安全防线：确保导航栏内部的任何嵌套子元素绝对不会被上面的正文规则错误污染 */
-  .navbar *, .nav-link, .nav-item, .navbar-brand {
+  
+  /* 2. 🛠️ 核心修复：强行将任务栏（包含菜单链接和名字）恢复回原生的现代无衬线风格 */
+  .navbar, .navbar *, .nav-link, .nav-item {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
   }
-</style>
+  
+  .profile .address {
+    line-height: 1.5 !important;
+    font-size: 1.05rem !important;
+    color: #222 !important;
+    margin-top: 12px !important;
+  }
+
+  .profile {
+    position: relative !important;
+    left: 0.5cm !important;
+  }
+
+  .award-normal-text {
     color: #111 !important;
     font-weight: normal !important;
   }
