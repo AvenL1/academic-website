@@ -42,19 +42,27 @@ nav_order: 4     # 🛠️ 导航栏排序，4 代表它会排在 Patents 和 Te
 
 </div>
 
+<!-- ========================================== -->
+<!-- 全站导航栏尺寸死锁与内容字体对齐金装补丁 -->
+<!-- ========================================== -->
 <style>
-  /* 1. 页面内部的项目卡片和正文维持 Times New Roman 字体 */
-  body, p, li, div, span, a, h1, h2, h3, h4, h5, h6 {
-    font-family: "Times New Roman", Times, serif !important;
-  }
-  
-  /* 2. 🛠️ 核心修复：强行将顶部任务栏（Navbar）完美恢复回原生的现代无衬线风格，拒绝抖动 */
-  .navbar, .navbar *, .nav-link, .nav-item {
+  /* 1. 网页底层与导航栏：100% 锁死官方原生无衬线字体，确保换页时任务栏尺寸、高度绝对静止 */
+  body, .navbar, .navbar *, .nav-link, .nav-item, .navbar-brand {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
   }
-</style>
-<style>
-  body, p, li, div, span, a, h1, h2, h3, h4, h5, h6, .post-title {
+
+  /* 2. 学术正文区：精准将各个板块内部的介绍、卡片、论文列表切换为端庄的 Times New Roman */
+  p, li, h1, h2, h3, h4, h5, h6,
+  .about, .about *, 
+  .publications, .publications *, 
+  .projects, .projects *, 
+  .teaching-list, .teaching-list *, 
+  .grants-list, .grants-list * {
     font-family: "Times New Roman", Times, serif !important;
+  }
+
+  /* 3. 安全防线：确保导航栏内部的任何嵌套子元素绝对不会被上面的正文规则错误污染 */
+  .navbar *, .nav-link, .nav-item, .navbar-brand {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
   }
 </style>
