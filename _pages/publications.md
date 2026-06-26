@@ -20,11 +20,14 @@ nav_order: 2
 </div>
 
 <style>
-  /* 1. 让右侧年份颜色变深、变清晰、去除透明虚化 */
-  .publications .year, h2.year, .year {
-    color: #222222 !important;   /* 换成高质感的清晰深黑色 */
-    opacity: 1 !important;        /* 彻底写死透明度，不再若隐若现 */
-    font-weight: 600 !important;  /* 稍微加粗，非常有精神 */
+  /* 1. 极限扩大选择器范围，彻底清除乱码空格，将年份死死锁死为不透明纯黑 */
+  .publications h2.year,
+  h2.year,
+  .publications h2,
+  .year {
+    color: #111111 !important;   /* 升级为更扎实高质感的纯深黑 */
+    opacity: 1 !important;        /* 彻底剥离任何淡化和虚化效果 */
+    font-weight: bold !important; /* 稳重加粗，让时间轴层次分明 */
   }
 
   /* 2. 让这一页的所有文字和列表松绑，告别紧凑 */
