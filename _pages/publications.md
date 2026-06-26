@@ -16,7 +16,7 @@ nav_order: 2
 </div>
 
 <style>
-  /* 1. 精准控制：将右侧年份换成较柔和但清晰可见的深炭灰色，并剔除虚化 */
+  /* 1. 年份色彩：将右侧年份换成较柔和但清晰可见的深炭灰色，并剔除虚化 */
   .publications h2.year,
   h2.year,
   .publications h2,
@@ -26,29 +26,33 @@ nav_order: 2
     font-weight: bold !important; /* 维持加粗，让时间轴层次分明 */
   }
 
-  /* 2. 呼吸间距：让这一页的所有文字和列表松绑，告别紧凑 */
-  p, li, .publications li {
-    line-height: 1.8 !important;   /* 拉开行与行之间的距离 */
-    margin-bottom: 16px !important; /* 让每一篇论文之间留出舒适的空隙 */
+  /* 2. 严格局部隔离：🛠️ 只拉开论文主内容区（.publications）内的文字和列表间距，绝对不外泄给导航栏的 li */
+  .publications p, 
+  .publications li, 
+  .publications a {
+    line-height: 1.8 !important;   
+  }
+  
+  .publications li {
+    margin-bottom: 20px !important; /* 让每篇论文卡片之间留出舒适优雅的空隙 */
   }
 
-  /* 3. 尺寸死锁：网页底层与导航栏 100% 锁死官方原生无衬线字体，确保换页时任务栏尺寸、高度绝对静止 */
+  /* 3. 基础死锁：网页底层与导航栏 100% 锁死官方原生无衬线字体 */
   body, .navbar, .navbar *, .nav-link, .nav-item, .navbar-brand {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
   }
 
-  /* 4. 学术正文区：精准将各个板块内部的介绍、卡片、论文列表切换为端庄的 Times New Roman */
-  p, li, h1, h2, h3, h4, h5, h6,
-  .about, .about *, 
-  .publications, .publications *, 
-  .projects, .projects *, 
-  .teaching-list, .teaching-list *, 
-  .grants-list, .grants-list * {
+  /* 4. 精准正文替换：仅将论文卡片及列表内部的所有文本切换为端庄的 Times New Roman */
+  .publications, 
+  .publications * {
     font-family: "Times New Roman", Times, serif !important;
   }
 
-  /* 5. 安全防线：确保导航栏内部的任何嵌套子元素绝对不会被上面的正文规则错误污染 */
-  .navbar *, .nav-link, .nav-item, .navbar-brand {
+  /* 5. 终极免疫防线：🛠️ 强行重置导航栏的行高与外边距，彻底粉碎任何潜在的排版渗透与变形 */
+  .navbar, .navbar *, .nav-link, .nav-item, .navbar-brand {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+    line-height: 1.5 !important;      /* 强行让导航栏回归标准高度 */
+    margin-bottom: 0 !important;      /* 彻底抹除论文列表带来的下边距污染 */
+    margin-top: 0 !important;
   }
 </style>
