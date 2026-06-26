@@ -14,8 +14,8 @@ nav_order: 5
     <div>
       <div style="font-weight: bold; color: #111; font-size: 1.15rem; display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
         Logic Design
-        <!-- 🔗 绑定PDF：target="_blank" 确保在新标签页干净利落地打开，不影响当前网站 -->
-        <a href="/assets/pdf/EIE2211_SDF_2025.pdf" target="_blank" style="background: #f0f7f4; color: #005A32; border: 1px solid #a3cbd6; padding: 2px 10px; border-radius: 4px; font-size: 0.85rem; font-weight: bold; text-decoration: none; transition: all 0.2s;" onmouseover="this.style.background='#005A32';this.style.color='#fff';" onmouseout="this.style.background='#f0f7f4';this.style.color='#005A32';">EIE2211 ↗</a>
+        <!-- 🔗 修复核心：加入了 {{ ... | relative_url }} 标签，动态补全你的 GitHub 仓库路径，死锁 404 -->
+        <a href="{{ '/assets/pdf/EIE2211_SDF_2025.pdf' | relative_url }}" target="_blank" style="background: #f0f7f4; color: #005A32; border: 1px solid #a3cbd6; padding: 2px 10px; border-radius: 4px; font-size: 0.85rem; font-weight: bold; text-decoration: none; transition: all 0.2s;" onmouseover="this.style.background='#005A32';this.style.color='#fff';" onmouseout="this.style.background='#f0f7f4';this.style.color='#005A32';">EIE2211 ↗</a>
       </div>
       <div style="color: #444; font-size: 1.05rem; margin-top: 6px;">The Hong Kong Polytechnic University</div>
       <div style="color: #666; font-size: 0.95rem; margin-top: 4px; font-style: italic;">Academic Year: 2022/23</div>
@@ -28,8 +28,8 @@ nav_order: 5
     <div>
       <div style="font-weight: bold; color: #111; font-size: 1.15rem; display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
         Optoelectronic Devices
-        <!-- 🔗 绑定PDF：target="_blank" 确保在新标签页干净利落地打开，不影响当前网站 -->
-        <a href="/assets/pdf/EIE577.pdf" target="_blank" style="background: #f0f7f4; color: #005A32; border: 1px solid #a3cbd6; padding: 2px 10px; border-radius: 4px; font-size: 0.85rem; font-weight: bold; text-decoration: none; transition: all 0.2s;" onmouseover="this.style.background='#005A32';this.style.color='#fff';" onmouseout="this.style.background='#f0f7f4';this.style.color='#005A32';">EIE577 ↗</a>
+        <!-- 🔗 修复核心：加入了 {{ ... | relative_url }} 标签，动态补全你的 GitHub 仓库路径，死锁 404 -->
+        <a href="{{ '/assets/pdf/EIE577.pdf' | relative_url }}" target="_blank" style="background: #f0f7f4; color: #005A32; border: 1px solid #a3cbd6; padding: 2px 10px; border-radius: 4px; font-size: 0.85rem; font-weight: bold; text-decoration: none; transition: all 0.2s;" onmouseover="this.style.background='#005A32';this.style.color='#fff';" onmouseout="this.style.background='#f0f7f4';this.style.color='#005A32';">EIE577 ↗</a>
       </div>
       <div style="color: #444; font-size: 1.05rem; margin-top: 6px;">The Hong Kong Polytechnic University</div>
       <div style="color: #666; font-size: 0.95rem; margin-top: 4px; font-style: italic;">Academic Years: 2023/24, 2024/25, 2025/26</div>
